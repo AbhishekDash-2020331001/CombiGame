@@ -1,0 +1,42 @@
+.alert {
+    -fx-background-color: #F8D7DA;
+    -fx-border-color: #F5C6CB;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.alert .dialog-pane {
+    -fx-background-color: #F8D7DA;
+    -fx-border-color: #F5C6CB;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.alert .dialog-pane .content {
+    -fx-padding: 20px;
+}
+
+.alert .dialog-pane .header-panel {
+    -fx-background-color: #F5C6CB;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.alert .dialog-pane .button-bar {
+    -fx-background-color: #F8D7DA;
+    -fx-padding: 10px;
+}
+
+.alert .dialog-pane .button-bar .button {
+    -fx-background-color: #F5C6CB;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+}
+
+.alert .dialog-pane .button-bar .button:hover {
+    -fx-background-color: #F2A6A8;
+}

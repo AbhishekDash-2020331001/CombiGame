@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="907.0" prefWidth="1550.0" stylesheets="@../CSS/sound.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <RadioButton fx:id="on" layoutX="704.0" layoutY="322.0" mnemonicParsing="false" text="ON">
+         <toggleGroup>
+            <ToggleGroup fx:id="same" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="off" layoutX="704.0" layoutY="408.0" mnemonicParsing="false" text="OFF" toggleGroup="$same" />
+      <Button fx:id="back" layoutX="699.0" layoutY="500.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+   </children>
+</AnchorPane>

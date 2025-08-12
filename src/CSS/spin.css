@@ -1,0 +1,31 @@
+.button {
+  -fx-background-color: #002540;
+  -fx-text-fill: white;
+  -fx-font-size: 50px;
+  -fx-padding: 15px 32px;
+  -fx-cursor: hand;
+  -fx-border-radius: 50%;
+  -fx-min-width: 300px;
+  -fx-max-width: 300px;
+  -fx-min-height: 100px;
+  -fx-max-height: 100px;
+  -fx-font-family: "Chiller";
+  -fx-font-weight: bold;
+  -fx-background-radius: 20px;
+}
+
+.button:hover {
+  -fx-background-color: #123456;
+  -fx-text-fill: #FFFFFF;
+  -fx-effect: dropshadow(three-pass-box, #FFD700, 10, 0, 0, 0);
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-rotate: 10deg;
+  -fx-effect: dropshadow(glow, #FFD700, 20, 0, 0, 0);
+}
+#spin{
+  -fx-min-width: 100px;
+  -fx-max-width: 100px;
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+}

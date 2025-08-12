@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="907.0" prefWidth="1550.0" styleClass="root" stylesheets="@../CSS/application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <Label fx:id="welcome" alignment="CENTER" layoutX="-124.0" layoutY="44.0" prefHeight="122.0" prefWidth="1804.0" text="Welcome to COMBOVERSE" textFill="NAVAJOWHITE">
+         <font>
+            <Font name="Chiller" size="85.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="687.0" layoutY="297.0" mnemonicParsing="false" onAction="#Start" text="Start" textFill="#123456" />
+      <Button fx:id="exit" layoutX="687.0" layoutY="551.0" mnemonicParsing="false" onAction="#Exit" text="Exit" textFill="#123456" />
+      <Button fx:id="sound" layoutX="687.0" layoutY="383.0" mnemonicParsing="false" onAction="#Sound" text="Sound" />
+      <Button fx:id="about" layoutX="687.0" layoutY="468.0" mnemonicParsing="false" onAction="#About" text="About" />
+   </children>
+</AnchorPane>

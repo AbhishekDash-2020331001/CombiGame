@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="907.0" prefWidth="1550.0" styleClass="root" stylesheets="@../CSS/gridSingleMulti.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.gridSingleMultiController">
+   <children>
+      <Label layoutX="414.0" layoutY="236.0" text="Choose One" />
+      <RadioButton fx:id="singlePlayer" layoutX="131.0" layoutY="420.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="306.0" text="Single Player" textFill="#470000">
+         <toggleGroup>
+            <ToggleGroup fx:id="sm" />
+         </toggleGroup>
+         <font>
+            <Font name="Chiller" size="48.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="doublePlayer" layoutX="742.0" layoutY="420.0" mnemonicParsing="false" text="Double Player" textFill="#470000" toggleGroup="$sm">
+         <font>
+            <Font name="Chiller" size="48.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="next" layoutX="742.0" layoutY="561.0" mnemonicParsing="false" onAction="#Next" text="Next" />
+      <Button fx:id="back" layoutX="134.0" layoutY="561.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Button fx:id="exittowindows" layoutX="1223.0" layoutY="767.0" mnemonicParsing="false" onAction="#exitToWindows" text="Exit to Windows" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="907.0" prefWidth="1550.0" stylesheets="@../CSS/gridInstructions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow layoutX="175.0" layoutY="193.0" prefHeight="450.0" prefWidth="1200.0" />
+   </children>
+</AnchorPane>

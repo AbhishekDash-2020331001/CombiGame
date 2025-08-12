@@ -1,0 +1,140 @@
+.root{
+	-fx-background-image:url('../img/sci.jpg');
+	-fx-background-size:cover;
+}
+.button {
+    
+    -fx-background-color: #008B8B;
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+    -fx-border-radius: 5px;
+    -fx-cursor: pointer; 
+}
+.button:hover {
+  -fx-background-color: #c62828; 
+}
+#battle{
+	-fx-text-fill: #FFDEAD;
+    -fx-font-size: 100px;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+    -fx-font-family:"monospace";
+}
+#move{
+	-fx-text-fill: #FFDEAD;
+	-fx-min-width: 500px;
+  -fx-max-width: 500px;
+    -fx-font-size: 20px;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+    -fx-font-family:"monospace";
+}
+#back{
+	-fx-background-radius: 15px;
+	-fx-border-radius:15px;
+	-fx-border-color: transparent;
+
+  -fx-text-fill: #123456;
+  -fx-font-size: 20px;
+  -fx-padding: 15px 32px;
+  -fx-cursor: hand;
+  -fx-background-color: #FFDEAD;
+  -fx-min-width: 150px;
+  -fx-max-width: 150px;
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-font-family: "monospace";
+  -fx-font-weight: bold;
+  
+}
+#next{
+	-fx-background-radius: 15px;
+	-fx-border-radius:15px;
+	-fx-border-color: transparent;
+	-fx-background-color: #FFDEAD;
+  -fx-text-fill: #123456;
+  -fx-font-size: 20px;
+  -fx-padding: 15px 32px;
+  -fx-cursor: hand;
+  -fx-min-width: 150px;
+  -fx-max-width: 150px;
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-font-family: "monospace";
+  -fx-font-weight: bold;
+}
+#exit{
+	-fx-background-radius: 15px;
+	-fx-border-radius:15px;
+	-fx-border-color: transparent;
+	-fx-background-color: #FFDEAD;
+  -fx-text-fill: #123456;
+  -fx-font-size: 20px;
+  -fx-padding: 15px 32px;
+  -fx-cursor: hand;
+  
+  -fx-min-width: 150px;
+  -fx-max-width: 150px;
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-font-family: "monospace";
+  -fx-font-weight: bold;
+  
+}
+#back:hover{
+	
+	-fx-background-radius: 15px;
+	-fx-border-radius:15px;
+	-fx-background-color: #c62828;
+  -fx-text-fill: #FFFFFF;
+  -fx-effect: dropshadow(three-pass-box, #FFD700, 10, 0, 0, 0);
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-rotate: 10deg;
+  -fx-effect: dropshadow(glow, #FFD700, 20, 0, 0, 0);
+}
+#next:hover{
+	-fx-background-radius: 15px;
+	-fx-border-radius:15px;
+	-fx-background-color: #c62828;
+  -fx-text-fill: #FFFFFF;
+  -fx-effect: dropshadow(three-pass-box, #FFD700, 10, 0, 0, 0);
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-rotate: 10deg;
+  -fx-effect: dropshadow(glow, #FFD700, 20, 0, 0, 0);
+}
+#exit:hover{
+	-fx-background-radius: 15px;
+	-fx-border-radius:15px;
+	-fx-background-color: #c62828;
+  -fx-text-fill: #FFFFFF;
+  -fx-effect: dropshadow(three-pass-box, #FFD700, 10, 0, 0, 0);
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-rotate: 10deg;
+  -fx-effect: dropshadow(glow, #FFD700, 20, 0, 0, 0);
+}
+#undo{
+	-fx-min-width:70px;
+	-fx-max-width:70px;
+	-fx-min-height:40px;
+	-fx-max-height:40px;
+	-fx-background-color: #008B8B;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: "monospace";
+	-fx-font-size: 20px;
+	-fx-border-color:transparent;
+	-fx-padding:1px 1px 1px 1px;
+	-fx-border-radius: 5px;
+}
+#undo:hover{
+	-fx-background-color: #c62828;
+}
+#cd{
+	-fx-text-fill: #008B8B;
+    -fx-font-size: 30px;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+    -fx-font-family:"monospace";
+}

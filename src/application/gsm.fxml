@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="907.0" prefWidth="1550.0" styleClass="root" stylesheets="@../CSS/gridSingleMulti.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <Label layoutX="383.0" layoutY="157.0" text="Choose one" />
+      <RadioButton layoutX="127.0" layoutY="343.0" mnemonicParsing="false" text="Single Player">
+         <font>
+            <Font name="Chiller" size="46.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="629.0" layoutY="343.0" mnemonicParsing="false" text="Double Player">
+         <font>
+            <Font name="Chiller" size="46.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>

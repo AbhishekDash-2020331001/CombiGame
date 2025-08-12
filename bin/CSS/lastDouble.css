@@ -1,0 +1,62 @@
+.root{
+	-fx-background-image:url('../img/lastred.jpg');
+	-fx-background-size:cover;
+}
+#text{
+	-fx-font-family:"monospace";
+    -fx-font-size: 25px;
+    -fx-text-fill: #FFDEAD;
+}
+.label {
+	-fx-font-family:"monospace";
+    -fx-font-size: 40px;
+    -fx-text-fill:#FFDEAD;
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    
+    
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+    
+    -fx-opacity:1;
+}
+
+.label:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FA8072;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 2);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+    -fx-opacity: 25;
+}
+.button {
+  -fx-background-color: #FFDEAD;
+  -fx-text-fill: #123456;
+  -fx-font-size: 20px;
+  -fx-padding: 15px 32px;
+  -fx-cursor: hand;
+  -fx-border-radius: 50%;
+  -fx-min-width: 150px;
+  -fx-max-width: 150px;
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-font-family: "monospace";
+  -fx-font-weight: bold;
+  -fx-background-radius: 20px;
+}
+
+.button:hover {
+  -fx-background-color: #BC8F8F;
+  -fx-text-fill: #FFFFFF;
+  -fx-effect: dropshadow(three-pass-box, #FFD700, 10, 0, 0, 0);
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-rotate: 10deg;
+  -fx-effect: dropshadow(glow, #FFD700, 20, 0, 0, 0);
+   
+  
+}

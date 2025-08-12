@@ -1,0 +1,35 @@
+.root{
+	-fx-background-image:url('../img/welcome.jpg');
+	-fx-background-size:cover;
+}
+.button {
+  -fx-background-color: #FFDEAD;
+  -fx-text-fill: #123456;
+  -fx-font-size: 20px;
+  -fx-padding: 15px 32px;
+  -fx-cursor: hand;
+  -fx-border-radius: 50%;
+  -fx-min-width: 150px;
+  -fx-max-width: 150px;
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-font-family: "monospace";
+  -fx-font-weight: bold;
+  -fx-background-radius: 20px;
+  -fx-opacity:1;
+}
+
+.button:hover {
+  -fx-background-color: #123456;
+  -fx-text-fill: #FFFFFF;
+  -fx-effect: dropshadow(three-pass-box, #FFD700, 10, 0, 0, 0);
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-rotate: 10deg;
+  -fx-effect: dropshadow(glow, #FFD700, 20, 0, 0, 0);
+   
+  
+}
+.button:pressed {
+    -fx-background-color: #373538;
+}
