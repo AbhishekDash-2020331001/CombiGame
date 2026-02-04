@@ -230,9 +230,7 @@ You can add screenshots or GIFs here after capturing them from the running app, 
 
 ### Gameplay Video
 
-```markdown
-[Watch the gameplay video](assets/combigame-gameplay.mp4)
-```
+[![Watch Gameplay](assets/thumbnail.png)](assets/combigame-gameplay.mp4)
 
 ---
 
